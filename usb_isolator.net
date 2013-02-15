@@ -1,0 +1,415 @@
+# EESchema Netlist Version 1.1 created  Wed 25 Apr 2012 08:44:04 PM EDT
+(
+ ( /4F957C1F MODULE  U1 ADUM4160 {Lib=ADUM4160}
+  (    1 Vbus1 )
+  (    2 GND )
+  (    3 Vdd1 )
+  (    4 Vdd1 )
+  (    5 SPU )
+  (    6 N-000014 )
+  (    7 N-000015 )
+  (    8 GND )
+  (    9 AGND )
+  (   10 N-000011 )
+  (   11 N-000012 )
+  (   12 PIN )
+  (   13 SPD )
+  (   14 Vdd2 )
+  (   15 AGND )
+  (   16 Vbus2 )
+ )
+ ( /4F957C56 $noname  J1 USB_1 {Lib=USB_1}
+  (    1 N-000013 )
+  (    2 UD- )
+  (    3 UD+ )
+  (    4 N-000008 )
+  (    5 N-000010 )
+  (    6 N-000010 )
+ )
+ ( /4F957C63 $noname  J3 USB_1 {Lib=USB_1}
+  (    1 N-000016 )
+  (    2 DD- )
+  (    3 DD+ )
+  (    4 N-000006 )
+  (    5 N-000007 )
+  (    6 N-000007 )
+ )
+ ( /4F95924D $noname  R4 24 {Lib=R}
+  (    1 UD- )
+  (    2 N-000014 )
+ )
+ ( /4F959274 $noname  R5 24 {Lib=R}
+  (    1 UD+ )
+  (    2 N-000015 )
+ )
+ ( /4F95927A $noname  R6 24 {Lib=R}
+  (    1 N-000012 )
+  (    2 DD- )
+ )
+ ( /4F959280 $noname  R7 24 {Lib=R}
+  (    1 N-000011 )
+  (    2 DD+ )
+ )
+ ( /4F95A82C $noname  R1 1M {Lib=R}
+  (    1 N-000010 )
+  (    2 GND )
+ )
+ ( /4F95A83B $noname  C1 4.7nF {Lib=C}
+  (    1 N-000010 )
+  (    2 GND )
+ )
+ ( /4F95A942 $noname  L2 INDUCTOR {Lib=INDUCTOR}
+  (    1 N-000008 )
+  (    2 GND )
+ )
+ ( /4F95AA54 $noname  L1 INDUCTOR {Lib=INDUCTOR}
+  (    1 Vbus1 )
+  (    2 N-000013 )
+ )
+ ( /4F95AB26 $noname  R9 1M {Lib=R}
+  (    1 N-000007 )
+  (    2 AGND )
+ )
+ ( /4F95AB35 $noname  C8 4.7nF {Lib=C}
+  (    1 N-000007 )
+  (    2 AGND )
+ )
+ ( /4F95AC20 $noname  L4 INDUCTOR {Lib=INDUCTOR}
+  (    1 N-000006 )
+  (    2 AGND )
+ )
+ ( /4F95ADA5 $noname  L3 INDUCTOR {Lib=INDUCTOR}
+  (    1 Vbus2 )
+  (    2 N-000016 )
+ )
+ ( /4F95B4DB $noname  C2 0.1uF {Lib=C}
+  (    1 Vdd1 )
+  (    2 GND )
+ )
+ ( /4F95B4FC $noname  C3 0.1uF {Lib=C}
+  (    1 Vbus1 )
+  (    2 GND )
+ )
+ ( /4F95B8AC $noname  C6 0.1uF {Lib=C}
+  (    1 Vbus2 )
+  (    2 AGND )
+ )
+ ( /4F95B8B2 $noname  C7 0.1uF {Lib=C}
+  (    1 AGND )
+  (    2 Vdd2 )
+ )
+ ( /4F95D2D2 $noname  SW2 SW_PUSH {Lib=SW_PUSH}
+  (    1 PIN )
+  (    2 AGND )
+ )
+ ( /4F95D2E9 $noname  R8 100k {Lib=R}
+  (    1 Vdd2 )
+  (    2 PIN )
+ )
+ ( /4F95D52F $noname  U2 7805 {Lib=7805}
+  (  GND AGND )
+  (   VI N-000003 )
+  (   VO Vbus2 )
+ )
+ ( /4F95D53E $noname  C4 10uF {Lib=C}
+  (    1 N-000003 )
+  (    2 AGND )
+ )
+ ( /4F95D54D $noname  C5 22uF {Lib=C}
+  (    1 Vbus2 )
+  (    2 AGND )
+ )
+ ( /4F95D7F0 $noname  J2 JACK_2P {Lib=JACK_2P}
+  (    1 AGND )
+  (    2 AGND )
+  (    3 N-000003 )
+ )
+ ( /4F95DFE6 $noname  D1 DIODE {Lib=DIODE}
+  (    1 Vbus2 )
+  (    2 N-000003 )
+ )
+ ( /4F989209 $noname  D2 LED {Lib=LED}
+  (    1 Vbus1 )
+  (    2 N-000021 )
+ )
+ ( /4F989218 $noname  D3 LED {Lib=LED}
+  (    1 Vbus2 )
+  (    2 N-000022 )
+ )
+ ( /4F989227 $noname  R2 270 {Lib=R}
+  (    1 N-000021 )
+  (    2 GND )
+ )
+ ( /4F989236 $noname  R3 270 {Lib=R}
+  (    1 N-000022 )
+  (    2 AGND )
+ )
+ ( /4F9896FD $noname  R10 100k {Lib=R}
+  (    1 Vdd1 )
+  (    2 SPU )
+ )
+ ( /4F98970C $noname  R11 100k {Lib=R}
+  (    1 Vdd2 )
+  (    2 SPD )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "PIN" "PIN"
+ U1 12
+ R8 2
+ SW2 1
+Net 2 "Vbus2" "Vbus2"
+ U1 16
+ D1 1
+ L3 1
+ C5 1
+ C6 1
+ U2 VO
+ D3 1
+Net 3 "" ""
+ U2 VI
+ J2 3
+ C4 1
+ D1 2
+Net 4 "Vbus1" "Vbus1"
+ C3 1
+ U1 1
+ L1 1
+ D2 1
+Net 5 "AGND" "AGND"
+ J2 2
+ J2 1
+ R3 2
+ U2 GND
+ U1 15
+ SW2 2
+ L4 2
+ U1 9
+ C4 2
+ C5 2
+ C8 2
+ R9 2
+ C7 1
+ C6 2
+Net 6 "" ""
+ J3 4
+ L4 1
+Net 7 "" ""
+ R9 1
+ J3 6
+ J3 5
+ C8 1
+Net 8 "" ""
+ L2 1
+ J1 4
+Net 9 "GND" "GND"
+ L2 2
+ U1 8
+ C1 2
+ R2 2
+ R1 2
+ U1 2
+ C3 2
+ C2 2
+Net 10 "" ""
+ J1 6
+ J1 5
+ R1 1
+ C1 1
+Net 11 "" ""
+ R7 1
+ U1 10
+Net 12 "" ""
+ R6 1
+ U1 11
+Net 13 "" ""
+ L1 2
+ J1 1
+Net 14 "" ""
+ U1 6
+ R4 2
+Net 15 "" ""
+ R5 2
+ U1 7
+Net 16 "" ""
+ J3 1
+ L3 2
+Net 17 "UD-" "UD-"
+ J1 2
+ R4 1
+Net 18 "UD+" "UD+"
+ R5 1
+ J1 3
+Net 19 "DD-" "DD-"
+ R6 2
+ J3 2
+Net 20 "DD+" "DD+"
+ R7 2
+ J3 3
+Net 21 "" ""
+ R2 1
+ D2 2
+Net 22 "" ""
+ R3 1
+ D3 2
+Net 23 "Vdd1" "Vdd1"
+ C2 1
+ R10 1
+ U1 3
+ U1 4
+Net 24 "SPU" "SPU"
+ U1 5
+ R10 2
+Net 25 "Vdd2" "Vdd2"
+ U1 14
+ C7 2
+ R8 1
+ R11 1
+Net 26 "SPD" "SPD"
+ U1 13
+ R11 2
+}
+#End
