@@ -56,3 +56,8 @@ nosetests.xml
 *.sym
 -d-debug.txt
 compile.sh
+
+kicadlibrary/.gitignore
+usb_isolator.bak
+usb_isolator.brd-bak
+_autosave-usb_isolator.brd
