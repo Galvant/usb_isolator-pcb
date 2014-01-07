@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-11-28 BZR 4510)-product date = Tue 07 Jan 2014 12:10:12 PM EST
+Cmp-Mod V01 Created by CvPcb (2013-11-28 BZR 4510)-product date = Tue 07 Jan 2014 03:24:44 PM EST
 
 BeginCmp
 TimeStamp = /4F95A83B;
@@ -208,6 +208,20 @@ TimeStamp = /4F95D52F;
 Reference = U2;
 ValeurCmp = 7805;
 IdModule  = DPAK2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CC608D;
+Reference = U3;
+ValeurCmp = MICRO-B_USB;
+IdModule  = OpenProject_Lib:MICRO-B_USB;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CC609F;
+Reference = U4;
+ValeurCmp = MICRO-B_USB;
+IdModule  = OpenProject_Lib:MICRO-B_USB;
 EndCmp
 
 EndListe

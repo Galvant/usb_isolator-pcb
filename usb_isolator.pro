@@ -1,6 +1,6 @@
-update=Tue 07 Jan 2014 03:03:51 PM EST
+update=Tue 07 Jan 2014 03:08:35 PM EST
 version=1
-last_client=kicad
+last_client=eeschema
 [cvpcb]
 version=1
 NetIExt=net
@@ -37,12 +37,14 @@ LibName8=led
 LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
+[general]
+version=1
 [eeschema]
 version=1
 PageLayoutDescrFile=
 SubpartIdSeparator=0
 SubpartFirstId=65
-LibDir=
+LibDir=/media/steven/Hawking/Dropbox/current/electronics/kicadlibrary
 NetFmtName=
 RptD_X=0
 RptD_Y=100
@@ -81,5 +83,4 @@ LibName29=contrib
 LibName30=valves
 LibName31=ADUM4160
 LibName32=r_pack2
-[general]
-version=1
+LibName33=open-project

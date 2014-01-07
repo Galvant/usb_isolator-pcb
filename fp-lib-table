@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Res_Pack2)(type KiCad)(uri ${KIPRJMOD}/r_pack2.pretty/)(options "")(descr "Resistor Pack - 2"))
+  (lib (name OpenProject_Lib)(type Legacy)(uri ${KIPRJMOD}/kicadlibrary/open-project.mod)(options "")(descr "Open Project Libs"))
 )
