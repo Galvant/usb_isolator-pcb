@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Res_Pack2)(type KiCad)(uri ${KIPRJMOD}/r_pack2.pretty/)(options "")(descr "Resistor Pack - 2"))
+)

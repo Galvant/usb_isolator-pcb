@@ -1,13 +1,11 @@
-update=Tue 07 Jan 2014 11:04:04 AM EST
+update=Tue 07 Jan 2014 03:03:51 PM EST
 version=1
-last_client=eeschema
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
 [pcbnew]
 version=1
 LastNetListRead=
@@ -83,3 +81,5 @@ LibName29=contrib
 LibName30=valves
 LibName31=ADUM4160
 LibName32=r_pack2
+[general]
+version=1

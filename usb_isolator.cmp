@@ -1,24 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2013-11-28 BZR 4510)-product date = Tue 07 Jan 2014 11:00:07 AM EST
+Cmp-Mod V01 Created by CvPcb (2013-11-28 BZR 4510)-product date = Tue 07 Jan 2014 12:10:12 PM EST
 
 BeginCmp
-TimeStamp = /4F957C56;
-Reference = J1;
-ValeurCmp = USB_1;
-IdModule  = USB_B;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F957C63;
-Reference = J3;
-ValeurCmp = USB_1;
-IdModule  = USB_A;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F957C1F;
-Reference = U1;
-ValeurCmp = ADUM4160;
-IdModule  = SO16W;
+TimeStamp = /4F95A83B;
+Reference = C1;
+ValeurCmp = 4.7nF;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
@@ -29,92 +15,92 @@ IdModule  = SMD_Packages:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F95AB26;
-Reference = R11;
-ValeurCmp = 1M;
-IdModule  = SMD_Packages:SM0603_Resistor;
+TimeStamp = /4F95B4FC;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F95D2E9;
-Reference = R10;
-ValeurCmp = 100k;
-IdModule  = SMD_Packages:SM0603_Resistor;
+TimeStamp = /4F95D53E;
+Reference = C4;
+ValeurCmp = 10uF;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F959280;
-Reference = R9;
-ValeurCmp = 24;
-IdModule  = SMD_Packages:SM0603_Resistor;
+TimeStamp = /4F95D54D;
+Reference = C5;
+ValeurCmp = 22uF;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F95927A;
-Reference = R8;
-ValeurCmp = 24;
-IdModule  = SMD_Packages:SM0603_Resistor;
+TimeStamp = /4F95B8AC;
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F98970C;
-Reference = R7;
-ValeurCmp = 100k;
-IdModule  = SMD_Packages:SM0603_Resistor;
+TimeStamp = /4F95B8B2;
+Reference = C7;
+ValeurCmp = 0.1uF;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F9896FD;
-Reference = R6;
-ValeurCmp = 100k;
-IdModule  = SMD_Packages:SM0603_Resistor;
+TimeStamp = /4F95AB35;
+Reference = C8;
+ValeurCmp = 4.7nF;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F959274;
-Reference = R5;
-ValeurCmp = 24;
-IdModule  = SMD_Packages:SM0603_Resistor;
+TimeStamp = /4F989209;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F95924D;
-Reference = R4;
-ValeurCmp = 24;
-IdModule  = SMD_Packages:SM0603_Resistor;
+TimeStamp = /4F989218;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F989236;
-Reference = R3;
-ValeurCmp = 270;
-IdModule  = SMD_Packages:SM0603_Resistor;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F989227;
-Reference = R2;
-ValeurCmp = 270;
-IdModule  = SMD_Packages:SM0603_Resistor;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F95A82C;
-Reference = R1;
-ValeurCmp = 1M;
-IdModule  = SMD_Packages:SM0603_Resistor;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F95AC20;
-Reference = L4;
-ValeurCmp = INDUCTOR;
+TimeStamp = /4F95DFE6;
+Reference = D3;
+ValeurCmp = DIODE;
 IdModule  = SMD_Packages:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F95ADA5;
-Reference = L3;
+TimeStamp = /4F957C56;
+Reference = J1;
+ValeurCmp = USB_1;
+IdModule  = USB_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F95D7F0;
+Reference = J2;
+ValeurCmp = JACK_2P;
+IdModule  = JACK_ALIM;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F957C63;
+Reference = J3;
+ValeurCmp = USB_1;
+IdModule  = USB_A;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F95AA54;
+Reference = L1;
 ValeurCmp = INDUCTOR;
 IdModule  = SMD_Packages:SM0603;
 EndCmp
@@ -127,94 +113,80 @@ IdModule  = SMD_Packages:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F95AA54;
-Reference = L1;
+TimeStamp = /4F95ADA5;
+Reference = L3;
 ValeurCmp = INDUCTOR;
 IdModule  = SMD_Packages:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F989209;
-Reference = D1;
-ValeurCmp = LED;
+TimeStamp = /4F95AC20;
+Reference = L4;
+ValeurCmp = INDUCTOR;
 IdModule  = SMD_Packages:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F95AB35;
-Reference = C8;
-ValeurCmp = 4.7nF;
-IdModule  = SMD_Packages:SM0603_Capa;
+TimeStamp = /4F95A82C;
+Reference = R1;
+ValeurCmp = 1M;
+IdModule  = SMD_Packages:SM0603_Resistor;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F95B8B2;
-Reference = C7;
-ValeurCmp = 0.1uF;
-IdModule  = SMD_Packages:SM0603_Capa;
+TimeStamp = /4F989227;
+Reference = R2;
+ValeurCmp = 270;
+IdModule  = SMD_Packages:SM0603_Resistor;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F95B8AC;
-Reference = C6;
-ValeurCmp = 0.1uF;
-IdModule  = SMD_Packages:SM0603_Capa;
+TimeStamp = /4F989236;
+Reference = R3;
+ValeurCmp = 270;
+IdModule  = SMD_Packages:SM0603_Resistor;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F95D54D;
-Reference = C5;
-ValeurCmp = 22uF;
-IdModule  = SMD_Packages:SM0603_Capa;
+TimeStamp = /4F9896FD;
+Reference = R6;
+ValeurCmp = 100k;
+IdModule  = SMD_Packages:SM0603_Resistor;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F95D53E;
-Reference = C4;
-ValeurCmp = 10uF;
-IdModule  = SMD_Packages:SM0603_Capa;
+TimeStamp = /4F98970C;
+Reference = R7;
+ValeurCmp = 100k;
+IdModule  = SMD_Packages:SM0603_Resistor;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F95B4FC;
-Reference = C3;
-ValeurCmp = 0.1uF;
-IdModule  = SMD_Packages:SM0603_Capa;
+TimeStamp = /4F95D2E9;
+Reference = R10;
+ValeurCmp = 100k;
+IdModule  = SMD_Packages:SM0603_Resistor;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F95A83B;
-Reference = C1;
-ValeurCmp = 4.7nF;
-IdModule  = SMD_Packages:SM0603_Capa;
+TimeStamp = /4F95AB26;
+Reference = R11;
+ValeurCmp = 1M;
+IdModule  = SMD_Packages:SM0603_Resistor;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F95DFE6;
-Reference = D3;
-ValeurCmp = DIODE;
-IdModule  = LEDs:LED-3MM;
+TimeStamp = /52CC26C6;
+Reference = RP1;
+ValeurCmp = 24;
+IdModule  = Res_Pack2:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F989218;
-Reference = D2;
-ValeurCmp = LED;
-IdModule  = LEDs:LED-3MM;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F95D7F0;
-Reference = J2;
-ValeurCmp = JACK_2P;
-IdModule  = JACK_ALIM;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F95D52F;
-Reference = U2;
-ValeurCmp = 7805;
-IdModule  = DPAK2;
+TimeStamp = /52CC28E0;
+Reference = RP2;
+ValeurCmp = 24;
+IdModule  = Res_Pack2:SM0603;
 EndCmp
 
 BeginCmp
@@ -222,6 +194,20 @@ TimeStamp = /4F95D2D2;
 Reference = SW1;
 ValeurCmp = SW_PUSH;
 IdModule  = Discret:SW_PUSH;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F957C1F;
+Reference = U1;
+ValeurCmp = ADUM4160;
+IdModule  = SO16W;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F95D52F;
+Reference = U2;
+ValeurCmp = 7805;
+IdModule  = DPAK2;
 EndCmp
 
 EndListe
