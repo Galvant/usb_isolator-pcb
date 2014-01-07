@@ -1,6 +1,6 @@
-PCBNEW-BOARD Version 2 date Wed 06 Feb 2013 10:51:59 PM EST
+PCBNEW-BOARD Version 2 date Tue 07 Jan 2014 10:41:18 AM EST
 
-# Created by Pcbnew(2012-nov-02)-testing
+# Created by Pcbnew(2013-11-28 BZR 4510)-product
 
 $GENERAL
 encoding utf-8
@@ -9,7 +9,7 @@ LayerCount 2
 EnabledLayers 1FFF8001
 Links 62
 NoConn 2
-Di 172.275499 89.0778 224.667233 135.4074
+Di 171.515314 88.6206 224.026186 135.6106
 Ndraw 10
 Ntrack 178
 Nzone 0
@@ -59,9 +59,10 @@ PadSize 2.99974 2.99974
 PadDrill 2.1844
 Pad2MaskClearance 0.254
 SolderMaskMinWidth 0
+GridOrigin 0 0
 AuxiliaryAxisOrg 0 0
 VisibleElements FFFFFFBF
-PcbPlotParams (pcbplotparams (layerselection 284196865) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory ""))
+PcbPlotParams (pcbplotparams (layerselection 284196865) (usegerberextensions true) (excludeedgelayer true) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory ""))
 $EndSETUP
 
 $EQUIPOT
@@ -210,7 +211,7 @@ AddNet "Vdd1"
 AddNet "Vdd2"
 $EndNCLASS
 $MODULE LED-3MM
-Po 203.0476 103.5304 -0 0 511324D9 4F989678 ~~
+Po 203.0476 103.5304 0 0 511324D9 4F989678 ~~
 Li LED-3MM
 Cd LED 3mm - Lead pitch 100mil (2,54mm)
 Kw LED led 3mm 3MM 100mil 2,54mm
@@ -272,15 +273,15 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE LED-3MM
 $MODULE LOGO
-Po 179.451 128.778 -0 0 00000000 51132179 ~~
+Po 179.451 128.778 0 0 00000000 51132179 ~~
 Li LOGO
 Cd OSHW LOGO
 Kw Open Source Hardware Logo
 Sc 51132179
 AR 
 Op 0 0 0
-T0 0 -2.95148 0.254 0.254 -0 0.0508 M I 20 N "G***"
-T1 0 2.95148 0.254 0.254 -0 0.0508 M I 20 N "LOGO"
+T0 0 -2.95148 0.254 0.254 0 0.0508 M I 20 N "G***"
+T1 0 2.95148 0.254 0.254 0 0.0508 M I 20 N "LOGO"
 DP 0 0 0 0 277 0.00254 20
 Dl -1.68656 2.49936
 Dl -1.65608 2.48412
@@ -1839,6 +1840,10 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE SM1206
+$DRAWSEGMENT
+Po 0 172.466 134.5692 216.2302 134.5692 0.381
+De 28 0 900 0 0
+$EndDRAWSEGMENT
 $TEXTPCB
 Te "+"
 Po 201.803 105.918 1.524 2.032 0.3048 0
@@ -1856,7 +1861,7 @@ Po 203.073 127.254 1.524 2.032 0.3048 0
 De 20 0 0 Normal
 $EndTEXTPCB
 $TEXTPCB
-Te "2013 revA"
+Te "2014 rev2"
 Po 193.548 119.253 1.524 2.032 0.3048 0
 De 20 0 0 Normal
 $EndTEXTPCB
@@ -1871,16 +1876,12 @@ Po 194.1322 112.0394 1.524 2.032 0.3048 0
 De 20 0 0 Normal
 $EndTEXTPCB
 $DRAWSEGMENT
-Po 0 172.5295 134.5565 172.5295 90.8177 0.381
+Po 0 172.4533 134.5565 172.4533 90.8177 0.381
 De 28 0 900 4F960A0C 0
 $EndDRAWSEGMENT
 $DRAWSEGMENT
-Po 0 216.2175 134.5565 216.2175 90.8177 0.381
+Po 0 216.2429 134.5311 216.2429 90.7923 0.381
 De 28 0 900 4F960A0B 0
-$EndDRAWSEGMENT
-$DRAWSEGMENT
-Po 0 172.466 134.62 216.2048 134.62 0.381
-De 28 0 900 4F960A09 0
 $EndDRAWSEGMENT
 $DRAWSEGMENT
 Po 0 172.466 90.805 216.2048 90.805 0.381
