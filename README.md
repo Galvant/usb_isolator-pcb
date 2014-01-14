@@ -9,10 +9,11 @@ About
 -----
 
 A USB isolator allows for a device to be connected to a PC while providing electrical isolation between the two.
-This project uses an `Analog Devices ADuM4160 
-<http://www.analog.com/en/interface-isolation/usb-isolators/adum4160/products/product.html>`_ full-speed USB digital
+This project uses an Analog Devices ADuM4160 full-speed USB digital
 isolator chip to acheive this.
 
+<http://www.analog.com/en/interface-isolation/usb-isolators/adum4160/products/product.html>
+ 
 Features
 --------
 
