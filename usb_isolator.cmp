@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-11-28 BZR 4510)-product date = Wed 08 Jan 2014 11:32:38 AM EST
+Cmp-Mod V01 Created by CvPcb (2013-11-28 BZR 4510)-product date = Fri 02 May 2014 01:05:12 PM EDT
 
 BeginCmp
 TimeStamp = /4F95A83B;
@@ -24,14 +24,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4F95D53E;
 Reference = C4;
-ValeurCmp = 10uF;
+ValeurCmp = 100nF;
 IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F95D54D;
 Reference = C5;
-ValeurCmp = 22uF;
+ValeurCmp = 10uF;
 IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
@@ -96,6 +96,13 @@ TimeStamp = /4F957C63;
 Reference = J3;
 ValeurCmp = USB_1;
 IdModule  = USB_A;
+EndCmp
+
+BeginCmp
+TimeStamp = /5363D12F;
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = Connect:SIL-2;
 EndCmp
 
 BeginCmp
