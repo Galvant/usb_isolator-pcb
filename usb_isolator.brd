@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Fri 02 May 2014 03:33:45 PM EDT
+PCBNEW-BOARD Version 2 date Thu 15 May 2014 02:22:25 PM EDT
 
 # Created by Pcbnew(2013-11-28 BZR 4510)-product
 
@@ -10,7 +10,7 @@ EnabledLayers 1FFF8001
 Links 70
 NoConn 0
 Di 165.69478 87.46786 224.026186 135.6106
-Ndraw 13
+Ndraw 15
 Ntrack 236
 Nzone 0
 BoardThickness 1.6002
@@ -62,7 +62,7 @@ SolderMaskMinWidth 0
 GridOrigin 0 0
 AuxiliaryAxisOrg 0 0
 VisibleElements FFFFFFBF
-PcbPlotParams (pcbplotparams (layerselection 284196865) (usegerberextensions true) (excludeedgelayer true) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory gerbers/))
+PcbPlotParams (pcbplotparams (layerselection 284459009) (usegerberextensions true) (excludeedgelayer true) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory gerbers/))
 $EndSETUP
 
 $EQUIPOT
@@ -498,7 +498,7 @@ Po -3.79984 1.4478
 $EndPAD
 $EndMODULE MICRO-B_USB
 $MODULE LOGO
-Po 200.6092 113.10112 900 0 00000000 51132179 ~~
+Po 179.30368 99.2378 900 0 00000000 51132179 ~~
 Li LOGO
 Cd OSHW LOGO
 Kw Open Source Hardware Logo
@@ -1993,6 +1993,16 @@ Po 1.27 0
 $EndPAD
 $EndMODULE SIL-2
 $TEXTPCB
+Te "Regulator Bypass"
+Po 186.8932 91.9988 0.762 1.016 0.1524 0
+De 20 0 0 Normal
+$EndTEXTPCB
+$TEXTPCB
+Te "Disconnect"
+Po 196.40804 129.9972 0.762 1.016 0.1524 900
+De 20 0 0 Normal
+$EndTEXTPCB
+$TEXTPCB
 Te "Host micro USB"
 Po 180.9496 128.3462 0.762 1.016 0.1524 900
 De 20 0 0 Normal
@@ -2055,13 +2065,13 @@ De 28 0 900 4F95F71A 0
 $EndDRAWSEGMENT
 $TRACK
 Po 3 207.772 124.1044 207.772 124.1044 0.889 -1
-De 15 1 1 0 0
+De 15 1 0 0 0
 Po 3 205.6384 120.4976 205.6384 120.4976 0.889 -1
-De 15 1 1 0 0
+De 15 1 0 0 0
 Po 0 205.6384 120.4976 205.6384 121.9708 0.635 -1
-De 0 0 1 5363F2DE 0
+De 0 0 0 5363F2DE 0
 Po 0 205.6384 121.9708 207.772 124.1044 0.635 -1
-De 0 0 1 5363F2DD 0
+De 0 0 0 5363F2DD 0
 Po 0 199.48398 94.66072 199.48398 95.2627 0.254 -1
 De 0 0 1 0 0
 Po 0 199.49414 95.27286 199.48398 94.66072 0.254 -1
